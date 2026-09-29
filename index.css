@@ -1,0 +1,77 @@
+/* Colores */
+:root {
+    --azul-oscuro: #1b4f8a;
+    --azul: #1a73c8;
+    --verde: #2e9e44;
+    --texto: #222222;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Nunito", Arial, sans-serif;
+    color: var(--texto);
+    background: #ffffff;
+    border-top: 8px solid var(--azul-oscuro);
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 16px 24px 40px;
+}
+
+hr {
+    border: none;
+    border-top: 3px solid var(--texto);
+    width: 90%;
+    margin-bottom: 24px;
+}
+
+h1 {
+    font-size: 2.2rem;
+    font-weight: 400;
+}
+
+.puesto {
+    color: var(--verde);
+    margin: 8px 0 16px;
+}
+
+h2 {
+    color: var(--verde);
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 32px 0 8px;
+}
+
+h3 {
+    color: var(--azul);
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-top: 16px;
+}
+
+.fecha {
+    margin-bottom: 6px;
+}
+
+ul {
+    padding-left: 24px;
+}
+
+li {
+    margin: 6px 0;
+}
+
+footer {
+    margin-top: 48px;
+    font-size: 0.9rem;
+    color: #777777;
+}
